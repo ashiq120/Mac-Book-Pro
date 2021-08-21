@@ -1,0 +1,26 @@
+p {
+    text-align: justify;
+}
+
+.btn-light:hover {
+    background-color: black;
+    color: aquamarine;
+}
+
+.cost-table, .promo {
+    width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cost-table {
+        width: 100%;
+    }
+
+    .promo {
+        width: 100%;
+    }
+
+    h1, h6, .memory, .storage, .delivery {
+        text-align: center;
+    }
+}
