@@ -1,4 +1,3 @@
-//Define
 const Buttons = document.getElementsByTagName("button");
 const BestPrice = document.getElementById("best-price");
 const MemoryCost = document.getElementById("memory-cost");
